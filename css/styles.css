@@ -1,0 +1,36 @@
+
+*{
+    /* Variáveis globais */
+    --primary-font-color: white;
+    --primary-background-color: rgb(90, 90, 253);
+
+    color: var(--primary-font-color)
+}
+
+header{
+    color: var(--primary-font-color);
+    text-align: center;
+    background-color: var(--primary-background-color)
+}
+
+main{
+    height: 500px;
+    background-color: purple;
+    
+}
+
+.gerador-cartelas{
+    background-color: var(--primary-background-color);
+}
+
+.jogo{
+    background-color: var(--primary-background-color);
+}
+
+footer{
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    background-color: var(--primary-background-color)
+}
